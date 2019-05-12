@@ -4,4 +4,4 @@ const newHeader = document.body.appendChild(document.createElement("h1"));
 newHeader.setAttribute("id", "victory");
 
 let nam = "ken";
-newHeader.innerHtml= `${nam} is the champion`;
+newHeader.innerHTML= `${nam} is the champion`;
